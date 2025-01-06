@@ -1,2 +1,68 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# General
+.DS_Store
+Thumbs.db
+node_modules/
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS generated files
+*.swp
+*.swo
+*.swn
+*.swp
+*.swo
+.swp
+.swo
+.swn
+
+# Build and Dependency Files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# IDE Specific
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.log
+
+# Coverage directories
+coverage/
+
+# Miscellaneous
+*.bak
+*.tmp
+*.temp
+*.patch
+
+# Backend (cambridge-backend)
+cambridge-backend/node_modules/
+cambridge-backend/.env
+cambridge-backend/package-lock.json
+cambridge-backend/logs/
+cambridge-backend/debug/
+cambridge-backend/.cache/
+cambridge-backend/*.log
+cambridge-backend/coverage/
+
+# Frontend (cambridge-frontend)
+cambridge-frontend/node_modules/
+cambridge-frontend/.env
+cambridge-frontend/package-lock.json
+cambridge-frontend/build/
+cambridge-frontend/dist/
+cambridge-frontend/coverage/
+cambridge-frontend/.cache/
+cambridge-frontend/*.log
+cambridge-frontend/*.tmp
