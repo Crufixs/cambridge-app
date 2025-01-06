@@ -1,4 +1,5 @@
 type,name,id,price
+Home Appliance,Microwave,67890,89.99
 Electronics,Tablet,98765,299.99
 Electronics,Smartwatch,13579,199.99
 Home Appliance,Washing Machine,24680,499.99
@@ -13,6 +14,4 @@ Home Appliance,Flat Iron,33444,29.99
 Electronics,Router,55666,99.99
 Electronics,Modem,77888,49.99
 Home Appliance,Radio,99001,19.99
-Electronics,Air Purifier,11224,399.9912345
-asd,123,asd,123
-123,sd,zxcc,11
+Electronics,Air Purifier,11224,399.99

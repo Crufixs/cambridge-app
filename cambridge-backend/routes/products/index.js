@@ -92,9 +92,9 @@ exports.deleteProduct = (res, id) => {
       const updatedData = products
         .map(
           (product) =>
-            `${product.type},${product.name},${product.id},${product.price}`
+            `${product.type},${product.name},${product.id},${product.price}\n`
         )
-        .join("\n");
+        .join("");
       fs.writeFile(CSV_FILE, `${header}\n${updatedData}`, (err) => {
         if (err) {
           res.writeHead(500, { "Content-Type": "application/json" });
